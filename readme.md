@@ -1,4 +1,4 @@
-# ✨ Premium Frosted Glass VS Code Setup
+#  Rounded Frosted Glass VS Code Setup
 
 A clean, rounded, frosted-glass VS Code setup with floating editor panels, transparent explorer, custom wallpaper, and a premium aesthetic.
 
