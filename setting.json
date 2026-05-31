@@ -1,0 +1,103 @@
+
+{
+    "window.titleBarStyle": "custom",
+    "window.controlsStyle": "custom",
+
+    "workbench.colorTheme": "Vira Deepforest",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.productIconTheme": "viraUIIcons",
+
+    "background.enabled": true,
+    "background.editor": {
+        "useFront": true,
+        "style": {
+            "background-position": "100% 100%",
+            "background-size": "cover",
+            "opacity": 0.25
+        },
+        "images": [
+            "C:\\Users\\cosmi\\Downloads\\wallhaven-7jp8qy.jpg"
+        ]
+    },
+
+    "terminal.integrated.gpuAcceleration": "off",
+    "editor.minimap.enabled": true,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+
+    "custom-ui-style.stylesheet": {
+
+        /* MAIN WORKBENCH */
+        ".monaco-workbench":
+        "background: transparent !important;",
+
+        /* EDITOR */
+        ".monaco-workbench .part.editor > .content":
+        "padding: 12px !important; background: transparent !important;",
+
+        ".editor-group-container":
+        "border-radius: 24px !important; overflow: hidden !important;",
+
+        ".monaco-workbench .part.editor>.content .editor-group-container":
+        "border-radius: 24px !important; overflow: hidden !important; background: rgba(15,18,24,0.22) !important; border: 1px solid rgba(255,255,255,0.04) !important; backdrop-filter: blur(22px) saturate(180%) !important;",
+
+        ".monaco-editor":
+        "border-radius: 0 0 24px 24px !important; overflow: hidden !important;",
+
+        ".editor-scrollable":
+        "padding-right: 0px !important;",
+
+        ".minimap":
+        "margin-right: 8px !important; border-radius: 16px !important; overflow: hidden !important;",
+
+        /* TABS */
+        ".tabs-and-actions-container":
+        "background: rgba(20,20,20,0.18) !important; backdrop-filter: blur(20px); border-radius: 24px 24px 0 0 !important; padding: 6px 10px !important;",
+
+        ".tab":
+        "border-radius: 14px !important; overflow: hidden !important;",
+
+        ".tab.active":
+        "background: rgba(255,255,255,0.08) !important;",
+
+        /* EXPLORER */
+        ".monaco-workbench .part.sidebar":
+        "margin: 12px 0 12px 12px !important; border-radius: 24px !important; overflow: hidden !important; background: rgba(20,20,20,0.12) !important; backdrop-filter: blur(35px) saturate(180%) !important; border: 1px solid rgba(255,255,255,0.03) !important;",
+
+        ".sidebar":
+        "background: transparent !important;",
+
+        ".pane-header":
+        "background: transparent !important;",
+
+        ".monaco-list":
+        "background: transparent !important;",
+
+        /* ACTIVITY BAR */
+        ".monaco-workbench .part.activitybar":
+        "margin: 12px 0 12px 12px !important; border-radius: 24px !important; overflow: hidden !important; background: rgba(20,20,20,0.12) !important; backdrop-filter: blur(35px) !important;",
+
+        /* TERMINAL */
+        ".monaco-workbench .part.panel":
+        "margin: 0 12px 12px 12px !important; border-radius: 24px !important; overflow: hidden !important; background: rgba(20,20,20,0.18) !important; backdrop-filter: blur(24px) !important; border: 1px solid rgba(255,255,255,0.03) !important;",
+
+        ".terminal-wrapper":
+        "padding: 12px !important;",
+
+        ".xterm":
+        "padding: 8px !important;",
+
+        /* POPUPS */
+        ".quick-input-widget":
+        "border-radius: 18px !important; overflow: hidden !important; backdrop-filter: blur(25px) !important;",
+
+        ".suggest-widget":
+        "border-radius: 14px !important; overflow: hidden !important;",
+
+        ".find-widget":
+        "border-radius: 14px !important;",
+
+        ".notification-toast":
+        "border-radius: 16px !important;"
+    }
+}
